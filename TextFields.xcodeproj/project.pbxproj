@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		084E3D97291BBA5300EC243D /* TextInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084E3D96291BBA5300EC243D /* TextInputViewController.swift */; };
+		08AB5AFD290FFE8800F776FB /* SingleTextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AB5AFC290FFE8800F776FB /* SingleTextFieldViewController.swift */; };
+		08D8ABFC290F0E6300740499 /* AllTextFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8ABFB290F0E6300740499 /* AllTextFieldsViewController.swift */; };
+		08D8ABFE290F108600740499 /* NoDigitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8ABFD290F108600740499 /* NoDigitsView.swift */; };
+		08D8AC00290F10BA00740499 /* NoDigitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8ABFF290F10BA00740499 /* NoDigitsViewModel.swift */; };
+		08D8AC08290F245400740499 /* InputLimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8AC07290F245400740499 /* InputLimitView.swift */; };
+		08D8AC0A290F246000740499 /* InputLimitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8AC09290F246000740499 /* InputLimitViewModel.swift */; };
+		08D8AC0D290F2D0B00740499 /* OnlyCharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8AC0C290F2D0B00740499 /* OnlyCharactersView.swift */; };
+		08D8AC0F290F2D1400740499 /* OnlyCharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8AC0E290F2D1400740499 /* OnlyCharactersViewModel.swift */; };
+		08D8AC14290FCE6300740499 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8AC13290FCE6300740499 /* LinkView.swift */; };
+		08D8AC16290FCE6A00740499 /* LinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8AC15290FCE6A00740499 /* LinkViewModel.swift */; };
+		08D8AC19290FD4D600740499 /* ValidationRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8AC18290FD4D600740499 /* ValidationRulesView.swift */; };
+		08D8AC1B290FD4DE00740499 /* ValidationRulesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8AC1A290FD4DE00740499 /* ValidationRulesViewModel.swift */; };
+		08D8AC1F290FF30B00740499 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D8AC1E290FF30B00740499 /* TabBarController.swift */; };
 		08DB050E29071F7400F212E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DB050D29071F7400F212E2 /* AppDelegate.swift */; };
-		08DB051029071F7400F212E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DB050F29071F7400F212E2 /* SceneDelegate.swift */; };
-		08DB051229071F7400F212E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DB051129071F7400F212E2 /* ViewController.swift */; };
-		08DB051529071F7400F212E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DB051329071F7400F212E2 /* Main.storyboard */; };
 		08DB051729071F7500F212E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08DB051629071F7500F212E2 /* Assets.xcassets */; };
 		08DB051A29071F7500F212E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DB051829071F7500F212E2 /* LaunchScreen.storyboard */; };
+		08E8422A2907278600A09645 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E842292907278600A09645 /* UIView.swift */; };
+		08E8422C2907297C00A09645 /* TextFieldSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8422B2907297C00A09645 /* TextFieldSectionView.swift */; };
+		08E8422E2907329900A09645 /* PlaceholderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E8422D2907329900A09645 /* PlaceholderTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		084E3D96291BBA5300EC243D /* TextInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputViewController.swift; sourceTree = "<group>"; };
+		08AB5AFC290FFE8800F776FB /* SingleTextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTextFieldViewController.swift; sourceTree = "<group>"; };
+		08D8ABFB290F0E6300740499 /* AllTextFieldsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTextFieldsViewController.swift; sourceTree = "<group>"; };
+		08D8ABFD290F108600740499 /* NoDigitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDigitsView.swift; sourceTree = "<group>"; };
+		08D8ABFF290F10BA00740499 /* NoDigitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDigitsViewModel.swift; sourceTree = "<group>"; };
+		08D8AC07290F245400740499 /* InputLimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLimitView.swift; sourceTree = "<group>"; };
+		08D8AC09290F246000740499 /* InputLimitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLimitViewModel.swift; sourceTree = "<group>"; };
+		08D8AC0C290F2D0B00740499 /* OnlyCharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyCharactersView.swift; sourceTree = "<group>"; };
+		08D8AC0E290F2D1400740499 /* OnlyCharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyCharactersViewModel.swift; sourceTree = "<group>"; };
+		08D8AC13290FCE6300740499 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		08D8AC15290FCE6A00740499 /* LinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewModel.swift; sourceTree = "<group>"; };
+		08D8AC18290FD4D600740499 /* ValidationRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationRulesView.swift; sourceTree = "<group>"; };
+		08D8AC1A290FD4DE00740499 /* ValidationRulesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationRulesViewModel.swift; sourceTree = "<group>"; };
+		08D8AC1E290FF30B00740499 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		08DB050A29071F7400F212E2 /* TextFields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFields.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DB050D29071F7400F212E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		08DB050F29071F7400F212E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		08DB051129071F7400F212E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		08DB051429071F7400F212E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08DB051629071F7500F212E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08DB051929071F7500F212E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08DB051B29071F7600F212E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E842292907278600A09645 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		08E8422B2907297C00A09645 /* TextFieldSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSectionView.swift; sourceTree = "<group>"; };
+		08E8422D2907329900A09645 /* PlaceholderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		084E3D95291BBA3000EC243D /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				08E842292907278600A09645 /* UIView.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		084E3D98291BCAC000EC243D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				08D8ABFB290F0E6300740499 /* AllTextFieldsViewController.swift */,
+				08AB5AFC290FFE8800F776FB /* SingleTextFieldViewController.swift */,
+				08D8AC1E290FF30B00740499 /* TabBarController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		08D8AC01290F194D00740499 /* NoDigitsView */ = {
+			isa = PBXGroup;
+			children = (
+				08D8ABFD290F108600740499 /* NoDigitsView.swift */,
+				08D8ABFF290F10BA00740499 /* NoDigitsViewModel.swift */,
+			);
+			name = NoDigitsView;
+			sourceTree = "<group>";
+		};
+		08D8AC0B290F246500740499 /* InputLimitView */ = {
+			isa = PBXGroup;
+			children = (
+				08D8AC07290F245400740499 /* InputLimitView.swift */,
+				08D8AC09290F246000740499 /* InputLimitViewModel.swift */,
+			);
+			name = InputLimitView;
+			sourceTree = "<group>";
+		};
+		08D8AC11290F2D2400740499 /* OnlyCharactersView */ = {
+			isa = PBXGroup;
+			children = (
+				08D8AC0C290F2D0B00740499 /* OnlyCharactersView.swift */,
+				08D8AC0E290F2D1400740499 /* OnlyCharactersViewModel.swift */,
+			);
+			name = OnlyCharactersView;
+			sourceTree = "<group>";
+		};
+		08D8AC12290FCE4400740499 /* LinkView */ = {
+			isa = PBXGroup;
+			children = (
+				08D8AC13290FCE6300740499 /* LinkView.swift */,
+				08D8AC15290FCE6A00740499 /* LinkViewModel.swift */,
+			);
+			path = LinkView;
+			sourceTree = "<group>";
+		};
+		08D8AC17290FD4A800740499 /* ValidationRulesView */ = {
+			isa = PBXGroup;
+			children = (
+				08D8AC18290FD4D600740499 /* ValidationRulesView.swift */,
+				08D8AC1A290FD4DE00740499 /* ValidationRulesViewModel.swift */,
+			);
+			path = ValidationRulesView;
+			sourceTree = "<group>";
+		};
+		08D8AC1D290FF1C700740499 /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				084E3D96291BBA5300EC243D /* TextInputViewController.swift */,
+				08E8422B2907297C00A09645 /* TextFieldSectionView.swift */,
+				08E8422D2907329900A09645 /* PlaceholderTextField.swift */,
+			);
+			name = CustomElements;
+			sourceTree = "<group>";
+		};
 		08DB050129071F7400F212E2 = {
 			isa = PBXGroup;
 			children = (
@@ -57,14 +158,27 @@
 			isa = PBXGroup;
 			children = (
 				08DB050D29071F7400F212E2 /* AppDelegate.swift */,
-				08DB050F29071F7400F212E2 /* SceneDelegate.swift */,
-				08DB051129071F7400F212E2 /* ViewController.swift */,
-				08DB051329071F7400F212E2 /* Main.storyboard */,
+				084E3D98291BCAC000EC243D /* Controllers */,
+				08D8AC1D290FF1C700740499 /* CustomElements */,
+				08D8AC01290F194D00740499 /* NoDigitsView */,
+				08D8AC0B290F246500740499 /* InputLimitView */,
+				08D8AC11290F2D2400740499 /* OnlyCharactersView */,
+				08D8AC12290FCE4400740499 /* LinkView */,
+				08D8AC17290FD4A800740499 /* ValidationRulesView */,
+				084E3D95291BBA3000EC243D /* Extentions */,
+				08E842282907240E00A09645 /* Files */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		08E842282907240E00A09645 /* Files */ = {
+			isa = PBXGroup;
+			children = (
 				08DB051629071F7500F212E2 /* Assets.xcassets */,
 				08DB051829071F7500F212E2 /* LaunchScreen.storyboard */,
 				08DB051B29071F7600F212E2 /* Info.plist */,
 			);
-			path = TextFields;
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,7 +208,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					08DB050929071F7400F212E2 = {
@@ -127,7 +241,6 @@
 			files = (
 				08DB051A29071F7500F212E2 /* LaunchScreen.storyboard in Resources */,
 				08DB051729071F7500F212E2 /* Assets.xcassets in Resources */,
-				08DB051529071F7400F212E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +251,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08DB051229071F7400F212E2 /* ViewController.swift in Sources */,
+				08AB5AFD290FFE8800F776FB /* SingleTextFieldViewController.swift in Sources */,
+				08D8ABFE290F108600740499 /* NoDigitsView.swift in Sources */,
+				08E8422A2907278600A09645 /* UIView.swift in Sources */,
+				084E3D97291BBA5300EC243D /* TextInputViewController.swift in Sources */,
+				08D8AC1F290FF30B00740499 /* TabBarController.swift in Sources */,
+				08D8ABFC290F0E6300740499 /* AllTextFieldsViewController.swift in Sources */,
+				08D8AC00290F10BA00740499 /* NoDigitsViewModel.swift in Sources */,
+				08D8AC1B290FD4DE00740499 /* ValidationRulesViewModel.swift in Sources */,
+				08D8AC19290FD4D600740499 /* ValidationRulesView.swift in Sources */,
+				08D8AC0F290F2D1400740499 /* OnlyCharactersViewModel.swift in Sources */,
+				08D8AC16290FCE6A00740499 /* LinkViewModel.swift in Sources */,
+				08D8AC0A290F246000740499 /* InputLimitViewModel.swift in Sources */,
+				08E8422C2907297C00A09645 /* TextFieldSectionView.swift in Sources */,
+				08D8AC0D290F2D0B00740499 /* OnlyCharactersView.swift in Sources */,
+				08D8AC08290F245400740499 /* InputLimitView.swift in Sources */,
 				08DB050E29071F7400F212E2 /* AppDelegate.swift in Sources */,
-				08DB051029071F7400F212E2 /* SceneDelegate.swift in Sources */,
+				08D8AC14290FCE6300740499 /* LinkView.swift in Sources */,
+				08E8422E2907329900A09645 /* PlaceholderTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		08DB051329071F7400F212E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08DB051429071F7400F212E2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		08DB051829071F7500F212E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +412,8 @@
 				INFOPLIST_FILE = TextFields/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +421,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Beavean.Anthony.TextFields;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +442,8 @@
 				INFOPLIST_FILE = TextFields/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +451,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Beavean.Anthony.TextFields;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
