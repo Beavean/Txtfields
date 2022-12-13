@@ -2,7 +2,7 @@
 //  TextFieldsUnitTests.swift
 //  TextFieldsUnitTests
 //
-//  Created by Beavean on 10.11.2022.
+//  Created by Beavean on 15.11.2022.
 //
 
 import XCTest
@@ -85,6 +85,7 @@ final class TextFieldsUnitTests: XCTestCase {
     
     func test_onlyCharacters_mixedString() {
         XCTAssertEqual(onlyCharactersSut.formatInput(fromString: "12345qwerty!@#$%^12345qwerty"), "qwert-12345")
+        XCTAssertEqual(onlyCharactersSut.formatInput(fromString: "abcd-e-12345"), "abcde-12345")
     }
     
     //MARK: - Link model tests
@@ -148,4 +149,3 @@ final class TextFieldsUnitTests: XCTestCase {
         XCTAssertEqual(validationRulesSut.setBarProgress(input: "aA12345!"), 1.0)
     }
 }
-    
