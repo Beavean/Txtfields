@@ -2,7 +2,7 @@
 //  TextFieldsUITests.swift
 //  TextFieldsUITests
 //
-//  Created by Beavean on 10.11.2022.
+//  Created by Beavean on 15.11.2022.
 //
 
 import XCTest
@@ -107,37 +107,10 @@ final class TextFieldsUITests: XCTestCase {
         XCTAssertTrue(app.buttons["ReloadButton"].waitForExistence(timeout: 10))
     }
     
-    func test_passwordTextFieldLabelsChanging() {
+    func test_passwordTextProgressBar() {
+        let maxProgress = "100 %"
         validationRulesTextField.tap()
-        validationRulesTextField.typeText("!")
-        XCTAssertTrue(lengthRuleLabel.label.hasPrefix("•"))
-        XCTAssertTrue(digitRuleLabel.label.hasPrefix("•"))
-        XCTAssertTrue(lowercaseRuleLabel.label.hasPrefix("•"))
-        XCTAssertTrue(uppercaseRuleLabel.label.hasPrefix("•"))
-        validationRulesTextField.typeText("!!!!!!!")
-        XCTAssertTrue(lengthRuleLabel.label.hasPrefix("✓"))
-        XCTAssertTrue(digitRuleLabel.label.hasPrefix("•"))
-        XCTAssertTrue(lowercaseRuleLabel.label.hasPrefix("•"))
-        XCTAssertTrue(uppercaseRuleLabel.label.hasPrefix("•"))
-        validationRulesTextField.typeText("1")
-        XCTAssertTrue(lengthRuleLabel.label.hasPrefix("✓"))
-        XCTAssertTrue(digitRuleLabel.label.hasPrefix("✓"))
-        XCTAssertTrue(lowercaseRuleLabel.label.hasPrefix("•"))
-        XCTAssertTrue(uppercaseRuleLabel.label.hasPrefix("•"))
-        validationRulesTextField.typeText("q")
-        XCTAssertTrue(lengthRuleLabel.label.hasPrefix("✓"))
-        XCTAssertTrue(digitRuleLabel.label.hasPrefix("✓"))
-        XCTAssertTrue(lowercaseRuleLabel.label.hasPrefix("✓"))
-        XCTAssertTrue(uppercaseRuleLabel.label.hasPrefix("•"))
-        validationRulesTextField.typeText("Q")
-        XCTAssertTrue(lengthRuleLabel.label.hasPrefix("✓"))
-        XCTAssertTrue(digitRuleLabel.label.hasPrefix("✓"))
-        XCTAssertTrue(lowercaseRuleLabel.label.hasPrefix("✓"))
-        XCTAssertTrue(uppercaseRuleLabel.label.hasPrefix("✓"))
-        app/*@START_MENU_TOKEN@*/.buttons["Clear text"]/*[[".secureTextFields[\"Type here\"].buttons[\"Clear text\"]",".secureTextFields[\"validationRulesTextField\"].buttons[\"Clear text\"]",".buttons[\"Clear text\"]"],[[[-1,2],[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        XCTAssertTrue(lengthRuleLabel.label.hasPrefix("•"))
-        XCTAssertTrue(digitRuleLabel.label.hasPrefix("•"))
-        XCTAssertTrue(lowercaseRuleLabel.label.hasPrefix("•"))
-        XCTAssertTrue(uppercaseRuleLabel.label.hasPrefix("•"))
+        validationRulesTextField.typeText("1qQ45678Qa")
+        XCTAssertEqual(validationProgressView.value as? String, maxProgress)
     }
 }
